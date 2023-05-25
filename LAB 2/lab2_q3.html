@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About My City</title>
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .landmark {
+            font-family: Arial;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #college {
+            color: green;
+            font-style: italic;
+            text-align: center;
+            font-size: 30px;
+            animation: blinker 1s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My City</h1>
+    <p class="landmark" style="color: red;">Landmark 1</p>
+    <p class="landmark" style="color: purple;">Landmark 2</p>
+    <p class="landmark" style="color: orange;">Landmark 3</p>
+    <p id="college" class="landmark" >My College</p>
+    <marquee behavior="scroll" direction="left">Welcome to My City</marquee>
+</body>
+
+</html>
